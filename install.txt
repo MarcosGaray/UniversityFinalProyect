@@ -1,0 +1,38 @@
+npm programas necesarios:
+node.js
+python.py
+
+Front:
+npm create vite@latest
+npm install
+npm i bootstrap
+import 'bootstrap/dist/css/bootstrap.min.css'  En el main.jsx
+npm i react-router-dom
+npm install axios
+npm run dev
+
+
+Back:
+pip install fastapi
+pip install uvicorn
+pip install sqlalchemy
+pip install psycopg2  // Requiere C++ Build Tools page.
+solucion: pip install psycopg[binary] // (psycopg3)
+//resumen:
+pip install fastapi uvicorn sqlalchemy psycopg[binary]
+
+uvicorn --host localhost --port 5555 main:app --reload
+PYTHONPATH=back uvicorn back.main:app --reload --host localhost --port 5555
+
+Extensiones
+en vscode extension postgreSQL
+en vscode extension python
+en vscode extension python identation
+
+
+servidor local pruebas:
+
+npm install -g json-server
+pararse en src
+json-server db.json
+(pero mejor json.server --watch db.json)

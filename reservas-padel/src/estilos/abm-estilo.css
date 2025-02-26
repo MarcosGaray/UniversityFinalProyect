@@ -1,0 +1,26 @@
+/* Contenedor principal */
+.main-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px; /* Espacio entre divs */
+    align-items: flex-start; /* Alinea verticalmente los divs */
+    padding: 20px;
+}
+
+/* Estilizado del filtro */
+#filtrado {
+    background-color: #f9f9f9; /* Fondo claro */
+    padding: 20px;
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 0 15px rgba(0, 0, 255, 0.2); /* Sombras difuminadas */
+    width: 300px; /* Ajusta el ancho */
+}
+
+/* Estilizado del contenido principal */
+.content {
+    flex: 1; /* El contenido principal ocupa el espacio restante */
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}

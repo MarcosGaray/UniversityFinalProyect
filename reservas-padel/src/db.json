@@ -1,0 +1,49 @@
+{
+  "reservas": [
+    {
+      "id": "1",
+      "dia": "2024-12-20",
+      "horario": "04:16:00",
+      "duracion": 214,
+      "idCancha": 1,
+      "cancha": {
+        "id": 1,
+        "nombre": "Hercules",
+        "techada": true
+      },
+      "nombreContacto": "Juan Pérez",
+      "telefonoContacto": "123456789"
+    },
+    {
+      "id": "2",
+      "dia": "2024-12-17",
+      "horario": "05:04:00",
+      "duracion": 90,
+      "idCancha": 2,
+      "cancha": {
+        "id": 2,
+        "nombre": "Don Ramon",
+        "techada": false
+      },
+      "nombreContacto": "Maria Lopez",
+      "telefonoContacto": "987654321"
+    }
+  ],
+  "canchas": [
+    {
+      "id": "1",
+      "nombre": "Hercules",
+      "techada": true
+    },
+    {
+      "id": "2",
+      "nombre": "Don Ramon",
+      "techada": false
+    },
+    {
+      "id": "3",
+      "nombre": "Naranjitos",
+      "techada": true
+    }
+  ]
+}
